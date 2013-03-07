@@ -1,7 +1,5 @@
 #pragma once
 
-#include <Windows.h>
-
 class CircularBuffer{
 
 public:
@@ -26,6 +24,4 @@ private:
     unsigned int uiHead, uiTail, uiLength;
     
     bool bBufferFull;
-    
-    HANDLE sem;
 };

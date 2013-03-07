@@ -1,9 +1,5 @@
 #pragma once
 
-#include "AirConditionNetworkApi.h"
-
-#include <Windows.h>
-
 class Console{
 
 public:

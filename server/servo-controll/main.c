@@ -15,7 +15,7 @@
 #include <native/task.h>
 #include <native/timer.h>
 
-int main(int argc, char **argv) {
+int mains(int argc, char **argv) {
 	unsigned int i;
 
 	/* Avoids memory swapping for this program */
